@@ -42,7 +42,7 @@
 
 
     h1 {
-        font-size:250%;
+        font-size:8vh;
         font-variant:small-caps;
         text-align:center;
         text-shadow: 5px 2px 4px #DDDDDD;
@@ -80,36 +80,13 @@
       color:orange;
     }
 
-    a:hover{
-        /*font-size:110%;*/
-        /*text-shadow: 5px 2px 4px #DDDDDD;*/
-        color:white;
-        /*background: black;
-        transition: width 3s;
-        -webkit-transition: background-color 2s ease-in;
-        background-color: black;
-        height:100px;
-    width:0px;
-    animation-name: colorchange;
-    animation-duration: 5s;
-    -webkit-animation-name: colorchange;
-    -webkit-animation-duration: 5s ease;*/
-    }
-
-
-@keyframes colorchange {
-    0% {background-color: white; }
-    100% {background-color: black; }
-}
-
-/*@-webkit-keyframes colorchange {
-    from {width:0px; }
-    to {width:200px; }
-    0% {background-color: white; }
-    100% {background-color: black; }
-}*/
-
-    nav{
-        text-align:center;
-        perspective:100px;
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: hsla(16,100%,47%,1);
+        box-shadow: -5px 2px 4px #333333;
+        color: white;
+        text-align: center;
     }
